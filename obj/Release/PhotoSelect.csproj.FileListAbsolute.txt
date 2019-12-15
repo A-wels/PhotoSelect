@@ -11,3 +11,17 @@ C:\Users\alexw\sciebo\Info\Projects\PhotoSelect\obj\Release\PhotoSelect.exe.mani
 C:\Users\alexw\sciebo\Info\Projects\PhotoSelect\obj\Release\PhotoSelect.application
 C:\Users\alexw\sciebo\Info\Projects\PhotoSelect\obj\Release\PhotoSelect.exe
 C:\Users\alexw\sciebo\Info\Projects\PhotoSelect\obj\Release\PhotoSelect.pdb
+C:\Users\alexw\projects\PhotoSelect\bin\Release\PhotoSelect.exe.config
+C:\Users\alexw\projects\PhotoSelect\bin\Release\PhotoSelect.exe.manifest
+C:\Users\alexw\projects\PhotoSelect\bin\Release\PhotoSelect.application
+C:\Users\alexw\projects\PhotoSelect\bin\Release\PhotoSelect.exe
+C:\Users\alexw\projects\PhotoSelect\bin\Release\PhotoSelect.pdb
+C:\Users\alexw\projects\PhotoSelect\obj\Release\PhotoSelect.csprojAssemblyReference.cache
+C:\Users\alexw\projects\PhotoSelect\obj\Release\PhotoSelect.Form1.resources
+C:\Users\alexw\projects\PhotoSelect\obj\Release\PhotoSelect.Properties.Resources.resources
+C:\Users\alexw\projects\PhotoSelect\obj\Release\PhotoSelect.csproj.GenerateResource.cache
+C:\Users\alexw\projects\PhotoSelect\obj\Release\PhotoSelect.csproj.CoreCompileInputs.cache
+C:\Users\alexw\projects\PhotoSelect\obj\Release\PhotoSelect.exe.manifest
+C:\Users\alexw\projects\PhotoSelect\obj\Release\PhotoSelect.application
+C:\Users\alexw\projects\PhotoSelect\obj\Release\PhotoSelect.exe
+C:\Users\alexw\projects\PhotoSelect\obj\Release\PhotoSelect.pdb

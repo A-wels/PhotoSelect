@@ -26,7 +26,6 @@ namespace PhotoSelect
             SetPicture();
             this.pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
 
-            // this.TopMost = true;
             this.WindowState = FormWindowState.Normal;
             this.FormBorderStyle = FormBorderStyle.Sizable;
             this.KeyPreview = true;
@@ -39,18 +38,25 @@ namespace PhotoSelect
             if (e.KeyCode == Keys.A)
             {
                 toPlace = "accepted";
-                movePhoto(); 
+                movePhoto();
             }
-            if(e.KeyCode == Keys.Back)
+            if (e.KeyCode == Keys.Back)
             {
                 toPlace = "declined";
                 movePhoto();
             }
-            if(e.KeyCode == Keys.D)
+            if (e.KeyCode == Keys.D)
             {
                 toPlace = "komische_gesichter";
                 movePhoto();
-
+            }
+            if (e.KeyCode == Keys.O)
+            {
+                previous();
+            }
+            if (e.KeyCode == Keys.P)
+            {
+                next();
             }
         }
 
@@ -86,7 +92,7 @@ namespace PhotoSelect
 
                 Directory.CreateDirectory(path + "\\" + toPlace);
                 File.Move(from, to);
-
+                files[currentIndex] = to;
                 current = current.Split(new[] { '.' })[0] + ".CR2";
 
                 try
@@ -139,6 +145,22 @@ namespace PhotoSelect
         {
             toPlace = "declined";
             movePhoto();
+        }
+        private void next()
+        {
+            if (currentIndex < files.Length - 1)
+            {
+                currentIndex++;
+            }
+            SetPicture();
+        }
+        private void previous()
+        {
+            if(currentIndex != 0)
+            {
+                currentIndex--;
+            }
+            SetPicture();
         }
 
     }
