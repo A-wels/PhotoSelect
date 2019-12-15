@@ -9,3 +9,7 @@ A -> Gut
 D -> Mittelmäßig
 
 Backspace -> Schlecht
+
+O -> Rückwärts navigieren
+
+P -> Vorwärts navigieren
